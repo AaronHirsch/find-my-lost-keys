@@ -1,0 +1,17 @@
+{
+  "name": "Find-My-Lost-Keys",
+  "version": "1.0.0",
+  "description": "I lost my keys and I am lazy af. This tool helps me to look for my keys.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Aaron Hirsch <hirsch.aaron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "puppeteer": "^1.6.0",
+    "redis": "^2.8.0"
+  }
+}
